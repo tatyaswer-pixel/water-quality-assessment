@@ -6,6 +6,18 @@
 โปรเจกต์นี้พัฒนาขึ้นเพื่อเป็นส่วนหนึ่งของโครงงานด้านวิศวกรรมคอมพิวเตอร์ โดยมุ่งเน้นการประยุกต์ใช้ **Web Application, Database, Fuzzy Logic และ Data Visualization** เข้าด้วยกัน
 
 ---
+## 🖥️ System Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Fuzzy Assessment Result
+![Assessment Result](docs/screenshots/assessment-result.png)
+
+### Assessment History
+![History](docs/screenshots/history.png)
+
+---
 
 ## ✨ Features
 
