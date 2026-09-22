@@ -225,7 +225,7 @@ with app.app_context():
         full_name='New Admin',
         role='admin'
     )
-    user.set_password('password123')
+    user.set_password('YOUR_PASSWORD')
     db.session.add(user)
     db.session.commit()
     print("✅ สร้าง Admin ใหม่สำเร็จ")
@@ -239,7 +239,7 @@ from models import db, User
 
 with app.app_context():
     admin = User.query.filter_by(username='admin').first()
-    admin.set_password('newpassword123')
+    admin.set_password('YOUR_ADMIN_PASSWORD')
     db.session.commit()
     print("✅ เปลี่ยนรหัสผ่านสำเร็จ")
 ```
@@ -293,7 +293,7 @@ app.run(host='0.0.0.0', port=5000)
 
 ```python
 # ใน config.py:
-SQLALCHEMY_DATABASE_URI = 'mysql://user:password@localhost/water_quality_db'
+SQLALCHEMY_DATABASE_URI = 'mysql://USERNAME:PASSWORD@localhost/water_quality_db'
 ```
 
 ### ติดตั้ง MySQL Driver
