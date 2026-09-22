@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Flask instance / database
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# User uploads
+static/uploads/
+
+# Generated files
+*.pdf
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unused generated images
+tds_membership_*.png
